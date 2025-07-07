@@ -1,4 +1,2 @@
 ffmpeg
-torch
-torchaudio
-audioop-lts
+libsndfile1
