@@ -5,6 +5,6 @@ pydub
 scipy
 numpy
 soundfile
-torch==2.2.0
-torchaudio==2.2.0
-demucs==4.0.0
+torch
+torchaudio
+demucs
