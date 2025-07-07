@@ -103,9 +103,11 @@ if st.button("Start Separate") and youtube_url:
         "quiet": True,
         "noplaylist": True,
         "http_headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-        },
-    }
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+        }  
+     }
 
     progress.progress(10, "正在下載音檔…")
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
