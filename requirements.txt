@@ -1,0 +1,15 @@
+
+uuid 
+streamlit
+yt-dlp
+ffmpeg-python
+typing
+pydub
+scipy
+numpy
+torch
+torchaudio
+demucs
+ffmpeg
+audioop-lts
+soundfile

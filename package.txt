@@ -1,0 +1,4 @@
+ffmpeg
+torch
+torchaudio
+audioop-lts
