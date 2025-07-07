@@ -5,6 +5,13 @@ RUN apt-get update && apt-get install -y \
     ffmpeg \
     curl \
     && rm -rf /var/lib/apt/lists/*
+    
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    libsndfile1 \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*    
 
 # 安裝 yt-dlp（直接從官方）
 RUN curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp \
