@@ -1,10 +1,11 @@
 streamlit
 uuid 
-streamlit
 yt-dlp
 ffmpeg-python
 typing
 pydub
+torch
+torchaudio
 scipy
 numpy
 torch
