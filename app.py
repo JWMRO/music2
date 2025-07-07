@@ -100,6 +100,11 @@ if st.button("Start Separate") and youtube_url:
             "preferredcodec": "wav",
             "preferredquality": "192",
         }],
+        "quiet": True,
+        "noplaylist": True,
+        "http_headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        },
     }
 
     progress.progress(10, "正在下載音檔…")
