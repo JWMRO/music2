@@ -3,7 +3,7 @@ yt-dlp
 ffmpeg-python
 pydub
 scipy
-numpy
+numpy==1.26.4
 soundfile
 torch==2.2.0
 torchaudio==2.2.0
